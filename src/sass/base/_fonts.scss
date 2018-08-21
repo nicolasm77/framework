@@ -1,0 +1,257 @@
+/*---------------*\
+  $FONTS
+\*---------------*/
+/**
+ * ARS Light
+ * ARS Light Italic
+ * ARS Regular
+ * ARS Regular Italic
+ * ARS Medium
+ * ARS Medium Italic
+ * ARS Bold
+ * ARS Bold Italic
+ * ARS Black
+ * ARS Black Italic
+ * Font size..................
+ */
+
+// ARS Light
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-Light-subset.woff2") format("woff2"),
+	url("../fonts/ARS-Light-subset.woff") format("woff");
+	font-style: normal;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-light {
+	font-family: "ARS", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+// ARS Light Italic
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-LightItalic-subset.woff2") format("woff2"),
+	url("../fonts/ARS-LightItalic-subset.woff") format("woff");
+	font-style: italic;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-light-italic {
+	font-family: "ARS", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+// ARS Regular
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-Regular-subset.woff2") format("woff2"),
+	url("../fonts/ARS-Regular-subset.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-regular {
+	font-family: "ARS", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+// ARS Regular Italic
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-Italic-subset.woff2") format("woff2"),
+	url("../fonts/ARS-Italic-subset.woff") format("woff");
+	font-style: italic;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-italic {
+	font-family: "ARS", sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+
+// ARS Medium
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-Medium-subset.woff2") format("woff2"),
+	url("../fonts/ARS-Medium-subset.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-medium {
+	font-family: "ARS", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+// ARS Medium Italic
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-MediumItalic-subset.woff2") format("woff2"),
+	url("../fonts/ARS-MediumItalic-subset.woff") format("woff");
+	font-style: italic;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-medium-italic {
+	font-family: "ARS", sans-serif;
+	font-style: italic;
+	font-weight: 500;
+}
+
+// ARS Bold
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-Bold-subset.woff2") format("woff2"),
+	url("../fonts/ARS-Bold-subset.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-bold {
+	font-family: "ARS", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+// ARS Bold Italic
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-BoldItalic-subset.woff2") format("woff2"),
+	url("../fonts/ARS-BoldItalic-subset.woff") format("woff");
+	font-style: italic;
+	font-weight: 700;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-bold-italic {
+	font-family: "ARS", sans-serif;
+	font-style: italic;
+	font-weight: 700;
+}
+
+// ARS Black
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-Black-subset.woff2") format("woff2"),
+	url("../fonts/ARS-Black-subset.woff") format("woff");
+	font-style: normal;
+	font-weight: 800;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-black {
+	font-family: "ARS", sans-serif;
+	font-style: normal;
+	font-weight: 800;
+}
+
+// ARS Black Italic
+@font-face {
+	font-family: "ARS";
+	src : url("../fonts/ARS-BlackItalic-subset.woff2") format("woff2"),
+	url("../fonts/ARS-BlackItalic-subset.woff") format("woff");
+	font-style: italic;
+	font-weight: 800;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hub-ars-black-italic {
+	font-family: "ARS", sans-serif;
+	font-style: italic;
+	font-weight: 800;
+}
+
+
+// Font size
+@for $i from 8 through 30 {
+	.hub-fs-#{$i} {
+		font-size: 1px * $i !important;
+	}
+}
+@for $i from 8 through 30 {
+	@include breakpoints($xs) {
+		.hub-fs-#{$i}-xs {
+			font-size: 1px * $i !important;
+		}
+	}
+}
+@for $i from 8 through 30 {
+	@include breakpoints($sm) {
+		.hub-fs-#{$i}-sm {
+			font-size: 1px * $i !important;
+		}
+	}
+}
+@for $i from 8 through 30 {
+	@include breakpoints($md) {
+		.hub-fs-#{$i}-md {
+			font-size: 1px * $i !important;
+		}
+	}
+}
+@for $i from 8 through 30 {
+	@include breakpoints($lg) {
+		.hub-fs-#{$i}-lg {
+			font-size: 1px * $i !important;
+		}
+	}
+}
+
+// 35 ~ 100
+@for $i from 7 through 20 {
+	.hub-fs-#{$i * 5} {
+		font-size: 1px * $i !important;
+	}
+}
+@for $i from 8 through 30 {
+	@include breakpoints($xs) {
+		.hub-fs-#{$i}-xs {
+			font-size: 1px * $i !important;
+		}
+	}
+}
+@for $i from 8 through 30 {
+	@include breakpoints($sm) {
+		.hub-fs-#{$i}-sm {
+			font-size: 1px * $i !important;
+		}
+	}
+}
+@for $i from 8 through 30 {
+	@include breakpoints($md) {
+		.hub-fs-#{$i}-md {
+			font-size: 1px * $i !important;
+		}
+	}
+}
+@for $i from 8 through 30 {
+	@include breakpoints($lg) {
+		.hub-fs-#{$i}-lg {
+			font-size: 1px * $i !important;
+		}
+	}
+}
