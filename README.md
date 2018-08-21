@@ -203,7 +203,7 @@ _Values : {start | center | end}_
 
 _Values : {start | center | end | around | between}_
 
-[Demo](https://basjerome.github.io/framework/grid.html)
+[Demo](https://nicolasm77.github.io/framework/grid.html)
 
 ---
 
@@ -269,7 +269,7 @@ class="hub-h5"
 class="hub-h6"
 ```
 
-[Demo](https://basjerome.github.io/framework/heading.html)
+[Demo](https://nicolasm77.github.io/framework/heading.html)
 
 ---
 
@@ -279,7 +279,7 @@ class="hub-h6"
 <p class="hub-p">...</p>
 ```
 
-[Demo](https://basjerome.github.io/framework/paragraph.html)
+[Demo](https://nicolasm77.github.io/framework/paragraph.html)
 
 ---
 
@@ -326,7 +326,7 @@ class="hub-h6"
 </dl>
 ```
 
-[Demo](https://basjerome.github.io/framework/list.html)
+[Demo](https://nicolasm77.github.io/framework/list.html)
 
 ---
 
@@ -359,7 +359,7 @@ class="hub-h6"
 </table>
 ```
 
-[Demo](https://basjerome.github.io/framework/table.html)
+[Demo](https://nicolasm77.github.io/framework/table.html)
 
 ---
 
@@ -372,7 +372,7 @@ class="hub-h6"
 <div class="addthis_inline_share_toolbox"></div>
 ```
 
-[Demo](https://basjerome.github.io/framework/addthis.html)
+[Demo](https://nicolasm77.github.io/framework/addthis.html)
 
 ---
 
@@ -418,7 +418,7 @@ class="hub-h6"
 <button class="hub-btn hub-btn-orange" type="button">...</button>
 ```
 
-[Demo](https://basjerome.github.io/framework/buttons.html)
+[Demo](https://nicolasm77.github.io/framework/buttons.html)
 
 ---
 
@@ -553,7 +553,7 @@ class="hub-h6"
 </nav>
 ```
 
-[Demo](https://basjerome.github.io/framework/pagination.html)
+[Demo](https://nicolasm77.github.io/framework/pagination.html)
 
 ---
 
@@ -581,7 +581,7 @@ La classe `.hub-clearfix` permet de contenir des éléments en _float_.
 
 _Values : {black | blue | dark-grey | orange | white}_
 
-[Demo](https://basjerome.github.io/framework/colors.html)
+[Demo](https://nicolasm77.github.io/framework/colors.html)
 
 ---
 
@@ -597,7 +597,7 @@ _Values : {black | blue | dark-grey | orange | white}_
 | MD          | `.hub-color-{value}-md` |
 | LG          | `.hub-color-{value}-lg` |
 
-[Demo](https://basjerome.github.io/framework/colors.html)
+[Demo](https://nicolasm77.github.io/framework/colors.html)
 
 ---
 
@@ -687,7 +687,7 @@ _Values : {8 ~ 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 
 
 `.hub-icon-{value}`
 
-[Demo](https://basjerome.github.io/framework/icons.html)
+[Demo](https://nicolasm77.github.io/framework/icons.html)
 
 ---
 
